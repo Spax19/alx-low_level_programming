@@ -8,9 +8,9 @@
  * Return: Always 0 (Success)
  */
 
-int main() {
+int main() 
+{
     char c;
-
     for (c = 'a'; c <= 'z'; c++) {
         putchar(c);
     }
@@ -19,4 +19,3 @@ int main() {
 
     return 0;
 }
-
