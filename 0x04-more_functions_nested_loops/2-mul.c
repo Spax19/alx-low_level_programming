@@ -6,11 +6,12 @@
  * @c: input
  * Return: result of the two numbers
  */
+int numbers(int a, int b);
 
-int main() {
+int mul() {
     int x = 5;
     int y = 7;
-    int z = mul((x, y);
+    int z = numbers((x, y);
     printf("%d * %d = %d\n", x, y, z);
     return 0;
 }
