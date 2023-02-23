@@ -7,12 +7,10 @@
  * Return: result of the two numbers
  */
 
-int mul(int a, int b);
-
 int main() {
     int x = 5;
     int y = 7;
-    int z = mul(x, y);
+    int z = mul((x, y);
     printf("%d * %d = %d\n", x, y, z);
     return 0;
 }
