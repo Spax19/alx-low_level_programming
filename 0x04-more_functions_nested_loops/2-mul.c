@@ -7,7 +7,15 @@
  *
  * Return: result of the two numbers
  */
-int mul(int a, int b) 
+int mul(int a, int b);
+
+int main(void) 
 {
-	return a * b;
+    int a = 5;
+    int b = 6;
+    int result = mul(a, b);
+
+    printf("%d * %d = %d\n", a, b, result);
+
+    return 0;
 }
