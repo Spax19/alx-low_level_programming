@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -8,7 +7,7 @@
  *
  * Return: Always 0.
  */
-int atoi(char *s)
+int _atoi(char *s)
 {
     int sign = 1;
     int result = 0;
