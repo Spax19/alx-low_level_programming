@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-void print_numbers(void);
+void print_numbers(void) {
+    int i;
 
-int main(void) {
-    print_numbers();
+    for (i = 0; i < 10; i++) {
+        _putchar(i + '0');
+    }
 
-    return 0;
+    _putchar('\n');
 }
 
