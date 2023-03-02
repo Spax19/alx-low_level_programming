@@ -7,7 +7,7 @@
  *
  * Return: dest
  */
-char* _strncat(char* dest, const char* src, int n) 
+char* _strncat(char* dest, const char* src, int n, int i) 
 {
     char* p = dest;
 
@@ -16,7 +16,7 @@ char* _strncat(char* dest, const char* src, int n)
         p++;
     }
 
-    int i = 0;
+    i = 0;
 
     while (*src != '\0' && i < n) 
     {
