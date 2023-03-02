@@ -10,14 +10,11 @@
 char* _strncat(char* dest, const char* src, int n, int i) 
 {
     char* p = dest;
-
     while (*p != '\0') 
     {
         p++;
     }
-
     i = 0;
-
     while (*src != '\0' && i < n) 
     {
         *p = *src;
@@ -25,7 +22,6 @@ char* _strncat(char* dest, const char* src, int n, int i)
         src++;
         i++;
     }
-
     *p = '\0';
     return dest;
 }
