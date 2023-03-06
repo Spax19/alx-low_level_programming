@@ -5,17 +5,16 @@
  *
  * Return: 0.
  */
-
 void print_chessboard(char (*a)[8]) 
 {
-	int i;
-    	for (i = 0; i < 8; ++i) 
+
+    	for (int i = 0; i < 8; ++i) 
 	{
-		int j;
-        	for (j = 0; j < 8; ++j) 
+        	for (int j = 0; j < 8; ++j) 
 		{
-            		std::cout << a[i][j] << ' ';
-        	}	
-        	std::cout << std::endl;
+            		printf("%c ", a[i][j]);
+        	}
+        	printf("\n");
     	}
 }
+
