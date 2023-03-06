@@ -19,12 +19,3 @@
     	}
     	return s;
 }
-
-int main() 
-{
-
-    	char buffer[50];
-    	_memset(buffer, 'A', 50);
-    	printf("buffer after memset: %s\n", buffer);
-    	return 0;
-}
